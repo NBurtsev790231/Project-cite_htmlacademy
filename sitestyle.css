@@ -156,8 +156,9 @@ a {
 	justify-content: space-around;
 	align-items: center;
 	background-color: #F9CA7B;
-	padding: 50px;
-	/*border: 3px solid #000000;*/
+	margin: 50px 0px;
+	padding: 50px 0px;
+	/*border: 1px solid #000000;*/
 }
 
 .main__public_item h3 {
@@ -181,7 +182,7 @@ a {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-evenly;
-	padding-top: 50px;
+	margin: 50px 0px;
 	/*border: 1px solid #000000;*/
 }
 
@@ -226,7 +227,6 @@ a {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	padding-bottom: 50px;
 	/*border: 1px solid #000000;*/
 }
 
@@ -234,7 +234,6 @@ a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-bottom: 50px;
 	/*border: 1px solid #000000;*/
 }
 
@@ -274,8 +273,8 @@ img {
 	flex-direction: column;
 	align-items: flex-start;
 	/*border: 2px solid #000000;*/
-	padding-top: 50px;
-	padding-left: 200px;
+	margin: 50px 0px;
+	padding: 50px 0px 0px 200px;
 }
 
 
