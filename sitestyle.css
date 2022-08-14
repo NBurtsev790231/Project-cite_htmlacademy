@@ -273,8 +273,7 @@ img {
 	flex-direction: column;
 	align-items: flex-start;
 	/*border: 2px solid #000000;*/
-	margin: 50px 0px;
-	padding: 50px 0px 0px 200px;
+	padding: 50px 0px 25px 200px;
 }
 
 
@@ -307,18 +306,56 @@ img {
 	font-size: 17px;
 	border: 1px solid #5a5a5a;
 	text-transform: uppercase;
-	padding: 10px;
-	margin-top: 30px;
-	opacity: 60%;
+	padding: 10px 20px;
+	opacity: 50%;
 }
 
 .main__press_button i {
 	font-size: 17px;
-	text-transform: uppercase;
-	padding: 10px;
-	margin-top: 30px;
+	text-transform: uppercase;;
+	padding-top: 30px;
 	color: #000000;
 }
+
+.main__prise {
+margin: 50px 0px;
+padding: 25px 200px;
+}
+
+
+.main__prise_title {
+	font-size: 30px;
+	font-weight: 900;
+	padding-bottom: 50px;
+	text-transform: uppercase;
+}
+
+.main__prise_table {
+	font-size: 17px;
+	line-height: 25px;
+}
+
+
+
+.main__prise_table th {
+	font-size: 17px;
+	padding-right: 110px;
+	padding-bottom: 20px;
+}
+
+.main__prise_table td {
+	border-top: 1px solid #5a5a5a;
+	padding: 20px;
+}
+
+.main__prise_table td :last-child {
+	margin: 0px;
+} 
+
+
+
+
+
 
 /*секция footer*/
 .footer {
